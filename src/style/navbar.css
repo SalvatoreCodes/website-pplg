@@ -1,0 +1,18 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2.5rem;
+}
+.navbar div:nth-child(odd) {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.navbar div:nth-child(odd) img {
+  height: 2.5rem;
+}
+.navbar div:nth-child(odd) p {
+  letter-spacing: 2px;
+  color: #71c9ce;
+}/*# sourceMappingURL=navbar.css.map */

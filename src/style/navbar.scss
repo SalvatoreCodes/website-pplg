@@ -1,0 +1,24 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2.5rem;
+
+  div:nth-child(odd) {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    img {
+      height: 2.5rem;
+    }
+
+    p {
+      letter-spacing: 2px;
+      color: #71c9ce;
+    }
+  }
+
+  div:nth-child(even) {
+  }
+}
